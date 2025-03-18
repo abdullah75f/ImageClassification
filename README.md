@@ -6,8 +6,8 @@ It would look something like the below one:<br>
 1- when the user uploads his picture in the ui:
 ![Alt Text](image-classifier/src/assets/image1.png)
 2- The picture to upload<br>
-![Alt Text](image-classifier/src/assets/image.jpeg)
-3- The Output of the yolo model:<br>
+![Alt Text](image-classifier/src/assets/image.jpeg)<br>
+3- The Output of the yolo model, The model predicting and classifying the image as surprised:<br>
 ![Alt Text](image-classifier/src/assets/image2.png)
 
 ## Frontend Setup
