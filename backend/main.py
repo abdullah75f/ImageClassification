@@ -14,6 +14,7 @@ origins = [
     "http://127.0.0.1",
     "http://127.0.0.1:8000",
     "https://image-classification-phi.vercel.app/", 
+    "https://image-classification-phi.vercel.app", 
     "*",  # Allow all origins for development purposes (be cautious in production)
 ]
 
