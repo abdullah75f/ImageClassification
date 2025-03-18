@@ -1,6 +1,9 @@
-# AI-Powered Emotion Detection System
+# AI-Powered Emotion Detection System: YOLO
 
-This project is an AI-powered Emotion Detection System consisting of a FastAPI backend and a React (Vite) frontend. The backend uses YOLO (You Only Look Once) for object detection and runs on FastAPI, while the frontend is a modern React app that allows users to upload images and receive real-time detection results. The system processes images, detects emotions, and returns labeled bounding boxes around detected faces. It is designed for speed, accuracy, and ease of use, making it suitable for emotion analysis and real-time applications. The backend is deployed on Render, while the frontend is hosted on Vercel.
+This AI-powered Emotion Detection System is built with a FastAPI backend and a React (Vite) frontend. The backend utilizes YOLO (You Only Look Once) for object detection, while the frontend enables users to upload images and receive instant emotion detection feedback. The system processes images, recognizes emotions, and highlights detected faces with labeled bounding boxes. Designed for high performance, precision, and user convenience, it is ideal for real-time emotion analysis. The backend is hosted on Render, and the frontend is deployed on Vercel.
+
+It would look something like the below one:
+
 
 ## Frontend Setup
 
