@@ -3,12 +3,12 @@
 This AI-powered Emotion Detection System is built with a FastAPI backend and a React (Vite) frontend. The backend utilizes YOLO (You Only Look Once) for object detection, while the frontend enables users to upload images and receive instant emotion detection feedback. The system processes images, recognizes emotions, and highlights detected faces with labeled bounding boxes. Designed for high performance, precision, and user convenience, it is ideal for real-time emotion analysis. The backend is hosted on Render, and the frontend is deployed on Vercel.
 
 It would look something like the below one:<br>
-1- when the user uploads his picture in the ui:
-![Alt Text](image-classifier/src/assets/image1.png)
-2- The picture to upload<br>
+# 1- when the user uploads his picture in the ui:<br>
+![Alt Text](image-classifier/src/assets/image1.png)<br>
+# 2- The picture to upload<br>
 ![Alt Text](image-classifier/src/assets/image.jpeg)<br>
-3- The Output of the yolo model, The model predicting and classifying the image as surprised:<br>
-![Alt Text](image-classifier/src/assets/image2.png)
+# 3- The Output of the yolo model, The model predicting and classifying the image as surprised:<br>
+![Alt Text](image-classifier/src/assets/image2.png)<br>
 
 ## Frontend Setup
 
