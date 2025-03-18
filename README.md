@@ -3,7 +3,7 @@
 This AI-powered Emotion Detection System is built with a FastAPI backend and a React (Vite) frontend. The backend utilizes YOLO (You Only Look Once) for object detection, while the frontend enables users to upload images and receive instant emotion detection feedback. The system processes images, recognizes emotions, and highlights detected faces with labeled bounding boxes. Designed for high performance, precision, and user convenience, it is ideal for real-time emotion analysis. The backend is hosted on Render, and the frontend is deployed on Vercel.
 
 It would look something like the below one:
-
+![Alt Text](image-classifier/src/assets/image.jpeg)
 
 ## Frontend Setup
 
@@ -43,7 +43,7 @@ This section guides you through setting up and running the React frontend for th
 
     This command reads the `package.json` file and installs all listed dependencies, including React, Vite, and other necessary libraries.
 
-4.  **Run the development server**
+5.  **Run the development server**
 
     Start the React development server using:
 
@@ -53,7 +53,7 @@ This section guides you through setting up and running the React frontend for th
 
     This command starts the Vite development server, which typically runs on `http://localhost:5173`. The server provides hot-reloading, so changes in the code will be automatically reflected in the browser.
 
-5.  **Accessing the Application**
+6.  **Accessing the Application**
 
     Once the development server is running, open your web browser and navigate to the address provided by the command line (usually `http://localhost:5173`). You should now see the Emotion Detection frontend.
 
@@ -63,20 +63,20 @@ This is a FastAPI-based backend for real-time object detection using the YOLO mo
 
 ### Features
 
-*   Upload images and detect objects with bounding boxes.
-*   Uses **YOLO** for object detection.
-*   FastAPI for the backend.
-*   CORS support for frontend integration.
+- Upload images and detect objects with bounding boxes.
+- Uses **YOLO** for object detection.
+- FastAPI for the backend.
+- CORS support for frontend integration.
 
 ### Requirements
 
-*   Python 3.8+
-*   FastAPI
-*   Uvicorn
-*   PyTorch
-*   OpenCV
-*   NumPy
-*   Ultralytics YOLO
+- Python 3.8+
+- FastAPI
+- Uvicorn
+- PyTorch
+- OpenCV
+- NumPy
+- Ultralytics YOLO
 
 ### Installation
 
@@ -106,17 +106,17 @@ This is a FastAPI-based backend for real-time object detection using the YOLO mo
 
 5.  **Activate the virtual environment**
 
-    *   **Linux/macOS:**
+    - **Linux/macOS:**
 
-        ```sh
-        source .venv/bin/activate
-        ```
+      ```sh
+      source .venv/bin/activate
+      ```
 
-    *   **Windows:**
+    - **Windows:**
 
-        ```sh
-        .venv\Scripts\activate
-        ```
+      ```sh
+      .venv\Scripts\activate
+      ```
 
 6.  **Install the dependencies**
 
@@ -128,3 +128,4 @@ This is a FastAPI-based backend for real-time object detection using the YOLO mo
 
 ```sh
 uvicorn main:app --reload
+```
