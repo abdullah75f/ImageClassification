@@ -6,9 +6,9 @@ It would look something like the below one:<br>
 1- when the user uploads his picture in the ui:
 ![Alt Text](image-classifier/src/assets/image1.png)
 2- The picture to upload<br>
-![Alt Text](image-classifier/src/assets/image2.png)
+![Alt Text](image-classifier/src/assets/image.png)
 3- The Output of the yolo model:<br>
-![Alt Text](image-classifier/src/assets/image.jpeg)
+![Alt Text](image-classifier/src/assets/image2.jpeg)
 
 ## Frontend Setup
 
