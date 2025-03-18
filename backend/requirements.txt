@@ -49,3 +49,4 @@ ultralytics-thop==2.0.14
 urllib3==2.3.0
 uvicorn==0.34.0
 zipp==3.21.0
+gunicorn
