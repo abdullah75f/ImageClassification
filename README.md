@@ -19,23 +19,23 @@ This section guides you through setting up and running the React frontend for th
     First, clone the frontend repository from GitHub:
 
     ```sh
-    git clone https://github.com/kidabg548/Emotion-Detector.git
+    git clone https://github.com/abdullah75f/ImageClassification.git
     ```
 
 2.  **Navigate to the project directory**
 
-    Change your current directory to the `face-emotion-detection` folder:
+    Change your current directory to the `ImageClassification` folder:
 
     ```sh
-    cd face-emotion-detection
+    cd ImageClassification
     ```
 
 3.  **Navigate to the frontend directory**
 
-    Change your current directory to the `face-emotion-detection` folder:
+    Change your current directory to the `image-classifier` folder:
 
     ```sh
-    cd frontend
+    cd image-classifier
     ```
 
 4.  **Install the dependencies**
@@ -62,7 +62,7 @@ This section guides you through setting up and running the React frontend for th
 
     Once the development server is running, open your web browser and navigate to the address provided by the command line (usually `http://localhost:5173`). You should now see the Emotion Detection frontend.
 
-## Backend Guide: YOLO Object Detection API (FastAPI)
+## Backend Guide: The FastAPI
 
 This is a FastAPI-based backend for real-time object detection using the YOLO model.
 
@@ -88,13 +88,13 @@ This is a FastAPI-based backend for real-time object detection using the YOLO mo
 1.  **Clone the repository**
 
     ```sh
-    git clone https://github.com/kidabg548/Emotion-Detector.git
+    git clone https://github.com/abdullah75f/ImageClassification.git
     ```
 
 2.  **Navigate to the project directory**
 
     ```sh
-    cd face-emotion-detection
+    cd ImageClassification
     ```
 
 3.  **Navigate to the backend directory**
