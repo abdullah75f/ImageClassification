@@ -100,7 +100,7 @@ const EmotionDetector = () => {
       formData.append("file", file);
 
       const result = await axios.post(
-        "http://127.0.0.1:8000/predict/",
+        "https://imageclassification-rjj8.onrender.com/predict/",
         formData,
         {
           headers: {
